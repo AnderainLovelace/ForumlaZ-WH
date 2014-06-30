@@ -1,0 +1,191 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FormulaZ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP39B0.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /I "./include" /I "./include/eigenmath" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/FormulaZ.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\SDL\FormulaZ\src\main.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP39B0.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP39B1.tmp" with contents
+[
+SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/FormulaZ.pdb" /debug /machine:I386 /out:"Debug/FormulaZ.exe" /pdbtype:sept 
+.\Debug\abs.obj
+.\Debug\add.obj
+.\Debug\adj.obj
+.\Debug\alloc.obj
+.\Debug\append.obj
+.\Debug\arccos.obj
+.\Debug\arccosh.obj
+.\Debug\arcsin.obj
+.\Debug\arcsinh.obj
+.\Debug\arctan.obj
+.\Debug\arctanh.obj
+.\Debug\arg.obj
+.\Debug\bake.obj
+.\Debug\besselj.obj
+.\Debug\bessely.obj
+.\Debug\bignum.obj
+.\Debug\binomial.obj
+.\Debug\ceiling.obj
+.\Debug\choose.obj
+.\Debug\circexp.obj
+.\Debug\clear.obj
+.\Debug\clock.obj
+.\Debug\coeff.obj
+.\Debug\cofactor.obj
+.\Debug\condense.obj
+.\Debug\conj.obj
+.\Debug\cons.obj
+.\Debug\contract.obj
+.\Debug\cos.obj
+.\Debug\cosh.obj
+.\Debug\data.obj
+.\Debug\decomp.obj
+.\Debug\define.obj
+.\Debug\defint.obj
+.\Debug\degree.obj
+.\Debug\denominator.obj
+.\Debug\derivative.obj
+.\Debug\det.obj
+.\Debug\dirac.obj
+.\Debug\display.obj
+.\Debug\distill.obj
+.\Debug\divisors.obj
+.\Debug\dpow.obj
+.\Debug\draw.obj
+.\Debug\dsolve.obj
+.\Debug\eigen.obj
+.\Debug\erf.obj
+.\Debug\erfc.obj
+.\Debug\eval.obj
+.\Debug\expand.obj
+.\Debug\expcos.obj
+.\Debug\expsin.obj
+.\Debug\factor.obj
+.\Debug\factorial.obj
+.\Debug\factorpoly.obj
+.\Debug\factors.obj
+.\Debug\filter.obj
+.\Debug\find.obj
+.\Debug\float.obj
+.\Debug\floor.obj
+.\Debug\font.obj
+.\Debug\for.obj
+.\Debug\gamma.obj
+.\Debug\gcd.obj
+.\Debug\guess.obj
+.\Debug\hermite.obj
+.\Debug\hilbert.obj
+.\Debug\imag.obj
+.\Debug\index.obj
+.\Debug\init.obj
+.\Debug\inner.obj
+.\Debug\integral.obj
+.\Debug\inv.obj
+.\Debug\io.obj
+.\Debug\is.obj
+.\Debug\isprime.obj
+.\Debug\itab.obj
+.\Debug\itest.obj
+.\Debug\laguerre.obj
+.\Debug\laplace.obj
+.\Debug\lcm.obj
+.\Debug\leading.obj
+.\Debug\legendre.obj
+.\Debug\list.obj
+.\Debug\log.obj
+.\Debug\madd.obj
+.\Debug\mag.obj
+.\Debug\main.obj
+.\Debug\mcmp.obj
+.\Debug\mfactor.obj
+.\Debug\mgcd.obj
+".\Debug\mini-test.obj"
+.\Debug\misc.obj
+.\Debug\mmodpow.obj
+.\Debug\mmul.obj
+.\Debug\mod.obj
+.\Debug\mpow.obj
+.\Debug\mprime.obj
+.\Debug\mroot.obj
+.\Debug\mscan.obj
+.\Debug\msqrt.obj
+.\Debug\mstr.obj
+.\Debug\multiply.obj
+.\Debug\nroots.obj
+.\Debug\numerator.obj
+.\Debug\outer.obj
+.\Debug\partition.obj
+.\Debug\polar.obj
+.\Debug\pollard.obj
+.\Debug\power.obj
+.\Debug\prime.obj
+.\Debug\primetab.obj
+.\Debug\print.obj
+.\Debug\product.obj
+.\Debug\qadd.obj
+.\Debug\qdiv.obj
+.\Debug\qmul.obj
+.\Debug\qpow.obj
+.\Debug\qsub.obj
+.\Debug\quickfactor.obj
+.\Debug\quotient.obj
+.\Debug\rationalize.obj
+.\Debug\real.obj
+.\Debug\rect.obj
+.\Debug\rewrite.obj
+.\Debug\roots.obj
+.\Debug\run.obj
+.\Debug\scan.obj
+.\Debug\selftest.obj
+.\Debug\sgn.obj
+.\Debug\simfac.obj
+.\Debug\simplify.obj
+.\Debug\sin.obj
+.\Debug\sinh.obj
+.\Debug\stack.obj
+.\Debug\subst.obj
+.\Debug\sum.obj
+.\Debug\symbol.obj
+.\Debug\tan.obj
+.\Debug\tanh.obj
+.\Debug\taylor.obj
+.\Debug\tensor.obj
+.\Debug\test.obj
+.\Debug\transform.obj
+.\Debug\transpose.obj
+.\Debug\ufxfile.obj
+.\Debug\ufxgraph.obj
+.\Debug\ufxkey.obj
+.\Debug\userfunc.obj
+.\Debug\variables.obj
+.\Debug\vectorize.obj
+.\Debug\zero.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP39B1.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.c
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'w1' : unreferenced local variable
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'w2' : unreferenced local variable
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'w3' : unreferenced local variable
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'w4' : unreferenced local variable
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'h1' : unreferenced local variable
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'h2' : unreferenced local variable
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'h3' : unreferenced local variable
+D:\SDL\FormulaZ\src\main.c(341) : warning C4101: 'h4' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+FormulaZ.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
